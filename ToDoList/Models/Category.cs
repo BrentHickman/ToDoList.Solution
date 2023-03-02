@@ -19,7 +19,7 @@ namespace ToDoList.Models
 
       public static void ClearAll()
       {
-          _instances.Clear();
+        _instances.Clear();
       }
 
     public static List<Category> GetAll()
